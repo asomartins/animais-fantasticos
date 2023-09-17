@@ -17,7 +17,6 @@ export default class Tooltip {
     } else {
       this.tooltipBox.style.left = `${event.pageX + 20}px`;
     }
-    console.log(event.pageX, window.innerWidth);
   }
 
   // Remove a tooltip e os eventos de mousemove e mouseleave
